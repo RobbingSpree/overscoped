@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "4752ac57-be89-458f-8b26-fac01f190134",
+            "Value": {
+                "id": "c741982f-c5d3-434e-88af-1e68353b0615",
+                "resourcePath": "sprites\\facing_indicator_spr\\facing_indicator_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49a14e2f-cc57-414c-bde4-0667bb9d71be",
             "Value": {
                 "id": "b9e999c2-bcb0-47cd-bb6b-8542fa97887d",

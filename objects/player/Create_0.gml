@@ -4,7 +4,7 @@
 mv_spd = 3; //player movement speed per frame
 dpad_dir=no_direction; //vert2 of player input
 facing = 0;
-
+player_state = state.idle;
 door_jump=true; //flag for room start to move the player to the approprate 
 job = 0; //player's current job
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
@@ -16,6 +16,21 @@ enum m
 	magic,
 	social,
 	labor
+}
+
+enum state
+{
+	idle,
+	walking,
+	charge,
+	channel,
+	afterburn,
+	auto_atack,
+	hurt,
+	CC,
+	talking,
+	menu,
+	dead
 }
 
 skill=[];

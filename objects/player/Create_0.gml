@@ -9,7 +9,7 @@ door_jump=true; //flag for room start to move the player to the approprate
 job = 0; //player's current job
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
 
-enum m
+enum m //modes
 {
 	explore,
 	combat,
@@ -18,7 +18,7 @@ enum m
 	labor
 }
 
-enum state
+enum state //actor states
 {
 	idle,
 	walking,

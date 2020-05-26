@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "8c30b911-cdb3-4857-aaaa-1f3b64d9df57",
     "children": [
-        "0997693d-e5a5-4b6a-9709-1a2d15ca4dd8"
+        "0997693d-e5a5-4b6a-9709-1a2d15ca4dd8",
+        "625ae392-8dd6-4c69-8baa-c5c1ace83861"
     ],
     "filterType": "GMFont",
     "folderName": "fonts",

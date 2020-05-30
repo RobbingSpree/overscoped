@@ -2,9 +2,11 @@
 
 job_board_initalize();
 
+image_alpha=1;
+
 for (i=0; i<array_length_1d(jobname); i++)
 {
-	var newskill = instance_create_layer(jobx[i],joby[i],"Instances",obj_job);
+	var newskill = instance_create_layer(x-jobx[i],y-joby[i],"Instances",obj_job);
 	newskill.image_index = jobimage[i];
 	newskill.jobname = jobname[i];
 	newskill.jobid=i;
@@ -27,8 +29,8 @@ for (i=0; i<array_length_1d(jobname); i++)
 				needcount=1;
 			} else { // on the new skill record where its lines should be drawn so we don’t need to look it up every frame
               
-                linetox[k] = other.jobx[jobneeds[k]];
-                linetoy[k] = other.joby[jobneeds[k]];
+                linetox[k] = obj_jobspawner.x - other.jobx[jobneeds[k]];
+                linetoy[k] = obj_jobspawner.y - other.joby[jobneeds[k]];
                 
                 needcount++;
             }

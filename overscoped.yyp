@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "48acffd2-284c-4741-8ce1-f30653a22242",
+            "Value": {
+                "id": "361a2fde-e704-4bcc-9cb8-ea492274fea0",
+                "resourcePath": "objects\\job_board_demo_obj\\job_board_demo_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49a14e2f-cc57-414c-bde4-0667bb9d71be",
             "Value": {
                 "id": "b9e999c2-bcb0-47cd-bb6b-8542fa97887d",

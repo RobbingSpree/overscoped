@@ -130,7 +130,7 @@
             "Key": "26794b99-d5c0-4ee0-953c-37e23aef9453",
             "Value": {
                 "id": "692b495a-b2e7-409f-8a0f-52d424e51c71",
-                "resourcePath": "objects\\obj_skill\\obj_skill.yy",
+                "resourcePath": "objects\\obj_job\\obj_job.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "6965a1c5-c4d9-4956-8e15-e3dcf6748d3e",
             "Value": {
                 "id": "1fb7db1b-9b21-4493-96f2-876b2d2ed827",
-                "resourcePath": "objects\\obj_skillspawner\\obj_skillspawner.yy",
+                "resourcePath": "objects\\obj_jobspawner\\obj_jobspawner.yy",
                 "resourceType": "GMObject"
             }
         },

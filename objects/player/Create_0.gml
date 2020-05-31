@@ -11,32 +11,6 @@ job = 0; //player's current job
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
 menu_memory = "job"; //the menu the game will open to 
 
-enum m //modes
-{
-	explore,
-	combat,
-	magic,
-	social,
-	labor
-}
-
-enum state //actor states
-{
-	idle,
-	walking,
-	charge,
-	channel,
-	afterburn,
-	auto_atack,
-	hurt,
-	CC,
-	talking,
-	menu,
-	dead
-}
-
-
-
 skill=[];
 var skill_scale=0.5;
 for (var i=0; i<8; i++)

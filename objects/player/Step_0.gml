@@ -37,14 +37,11 @@ if mode == m.explore
 {
 	if toggle_menu
 	{
-		if menu_controller.show 
-		{
-			//hide menu
-		}
-		else
-		{
-			//show menu
-		}
+		//toggle room persistence
+		room_persistent = true;
+		global.last_room=room0;
+		//go to menu
+		room_goto(pause_menu);
 	}
 	if action
 	{

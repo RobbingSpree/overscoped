@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1cd67588-dcf5-4b06-834a-175c544f26c0",
+            "Value": {
+                "id": "b9f00d39-549b-46ee-bfdb-ba9333e04037",
+                "resourcePath": "objects\\menu_camera\\menu_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20380529-0b2a-4f21-81f8-77bdb4822b8e",
             "Value": {
                 "id": "40b47c16-a480-44c5-8858-b7a39a901c9b",
@@ -351,19 +359,19 @@
             }
         },
         {
+            "Key": "85d78cf0-c93f-4c50-b614-320f8084cfbb",
+            "Value": {
+                "id": "3f39ea20-f737-44d2-a4e6-2d4454d95c6f",
+                "resourcePath": "views\\85d78cf0-c93f-4c50-b614-320f8084cfbb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8c30b911-cdb3-4857-aaaa-1f3b64d9df57",
             "Value": {
                 "id": "492edb7a-34fe-4696-a767-a8a56dee33a3",
                 "resourcePath": "views\\8c30b911-cdb3-4857-aaaa-1f3b64d9df57.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9195d1ee-8cc9-4251-9c76-648b7e8cc247",
-            "Value": {
-                "id": "393d98aa-b275-4563-b23d-d17e35db95d7",
-                "resourcePath": "objects\\menu_controller\\menu_controller.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -468,6 +476,14 @@
                 "id": "aa34ef97-ffc0-4091-a45c-54fdff8546a6",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce3573f6-fd31-4b4e-84ca-dcacfef2826f",
+            "Value": {
+                "id": "0193f173-a6af-43f1-89f8-6ef3ece4e994",
+                "resourcePath": "rooms\\pause_menu\\pause_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

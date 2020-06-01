@@ -9,3 +9,4 @@ draw_text(20,50,mode);
 
 //if action
 	
+draw_text(20,80, room_persistent);

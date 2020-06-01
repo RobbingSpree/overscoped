@@ -10,6 +10,7 @@ door_jump=true; //flag for room start to move the player to the approprate
 job = 0; //player's current job
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
 menu_memory = "job"; //the menu the game will open to 
+global.last_room = room0;
 
 skill=[];
 var skill_scale=0.5;

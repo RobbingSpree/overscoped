@@ -39,7 +39,7 @@ if mode == m.explore
 	{
 		//toggle room persistence
 		room_persistent = true;
-		global.last_room=room0;
+		global.last_room=room;
 		//go to menu
 		room_goto(pause_menu);
 	}

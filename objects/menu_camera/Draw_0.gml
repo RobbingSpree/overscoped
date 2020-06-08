@@ -1,4 +1,4 @@
-
+ 
 draw_text(x+100,80,x);
 draw_text(x+100,100,view_get_xport(0));
 

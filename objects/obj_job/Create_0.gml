@@ -9,4 +9,7 @@ needcount = 0;    // this will basically hold array_length_1d(jobneeds) so we do
 linetox[0] = 0;    // this will be an array of where to draw every line coming out of this skill
 linetoy[0] = 0;
 
-status = 0;    // 0 = unavailable, 1 = available, purchased = 2
+status = 0;    // 0 = unavailable, 1 = available, 2 = equipped
+//status = global.unlocks[jobid];
+
+jobname = 0; 

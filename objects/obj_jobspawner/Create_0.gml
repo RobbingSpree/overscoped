@@ -3,13 +3,16 @@
 job_board_initalize();
 
 image_alpha=1;
+job_change = -1;
+j_board = [];
 
-for (i=0; i<array_length_1d(jobname); i++)
+for ( i=0; i<array_length_1d(jobname); i++)
 {
 	var newskill = instance_create_layer(x+jobx[i],y+joby[i],"Instances",obj_job);
 	newskill.image_index = jobimage[i];
 	newskill.jobname = jobname[i];
 	newskill.jobid=i;
+	j_board[i]=newskill;
 	
 	show_debug_message("We have made Job" + string(jobname[i]));
 	
@@ -23,7 +26,7 @@ for (i=0; i<array_length_1d(jobname); i++)
 			show_debug_message("Job "+ string(newskill.jobname)+" needs " + string(jobneeds[k]));
 			if jobneeds[k] == -1 //-1 means always avaliable, draw line to root node
 			{
-				status = 1;
+				status = global.unlocks[jobid];
 				linetox[0] = obj_jobspawner.x;
 				linetoy[0] = obj_jobspawner.y;
 				needcount=1;

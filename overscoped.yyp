@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "a2d4e537-55bc-4727-9fa9-312ca563ae1b",
+            "Value": {
+                "id": "c31713ed-726d-4a9f-b5eb-4d5c8061a32e",
+                "resourcePath": "scripts\\setup_skill_unlocks\\setup_skill_unlocks.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a68b2a88-580c-4b5b-baeb-4807881e8668",
             "Value": {
                 "id": "766e7dca-3d5e-45aa-a593-4d54f8e81f43",
@@ -586,7 +594,8 @@
         "e260e2a2-e65b-402b-8765-dbb997af9d87",
         "f63485a2-2ade-4345-b162-2b541cc1c235",
         "84579b06-1ddf-4c69-ae67-84ca4f5b64aa",
-        "ae74ba3e-2fdf-46b6-b239-b3215fff9d23"
+        "ae74ba3e-2fdf-46b6-b239-b3215fff9d23",
+        "a2d4e537-55bc-4727-9fa9-312ca563ae1b"
     ],
     "tutorial": ""
 }

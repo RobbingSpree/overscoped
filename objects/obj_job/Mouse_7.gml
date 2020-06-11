@@ -5,7 +5,7 @@ if (status == 1) { // You can only buy this skill if it is available
 	{
 		status = 2 // set this skill as being bought
 		obj_jobspawner.j_board[global.current_job].status = 1; //update display status of current job
-		global.unlocks[global.unlocks]=1; //update persistant list of job status
+		//global.unlocks[global.unlocks]=1; //update persistant list of job status
 		global.unlocks[jobid]=2; //same as above
 		global.current_job = jobid; //change player variable for current job
 	}

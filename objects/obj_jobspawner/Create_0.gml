@@ -11,7 +11,8 @@ for ( i=0; i<array_length_1d(jobname); i++)
 	var newskill = instance_create_layer(x+jobx[i],y+joby[i],"Instances",obj_job);
 	newskill.image_index = jobimage[i];
 	newskill.jobname = jobname[i];
-	newskill.jobid=i;
+	//newskill.jobid=i;
+	newskill.status = global.unlocks[i];
 	j_board[i]=newskill;
 	
 	show_debug_message("We have made Job" + string(jobname[i]));
@@ -20,13 +21,13 @@ for ( i=0; i<array_length_1d(jobname); i++)
 	
 	with(newskill) //now we want to pre-solve the connections and store them so we're not solving them each frame
 	{
+		/*
 		for (var k=0; k<array_length_2d(other.jobneeds,other.i); k++)
 		{
 			jobneeds[k] = other.jobneeds[other.i,k];
 			show_debug_message("Job "+ string(newskill.jobname)+" needs " + string(jobneeds[k]));
 			if jobneeds[k] == -1 //-1 means always avaliable, draw line to root node
 			{
-				status = global.unlocks[jobid];
 				linetox[0] = obj_jobspawner.x;
 				linetoy[0] = obj_jobspawner.y;
 				needcount=1;
@@ -38,6 +39,7 @@ for ( i=0; i<array_length_1d(jobname); i++)
                 needcount++;
             }
 		}
+		*/
 	}
 }
 //http://www.davetech.co.uk/gamemakercomplexskilltrees

@@ -19,6 +19,6 @@ switch (status)
 }
 draw_set_color(c_black);
 draw_set_halign(fa_center);
-draw_text(x,y,status);
+draw_text(x,y,jobid);
 draw_text(x,y+30,get_job_name(jobid));
 draw_set_halign(-1);

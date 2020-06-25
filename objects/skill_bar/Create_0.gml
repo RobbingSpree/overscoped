@@ -10,6 +10,7 @@ custom_hotkey=-1;
 charge=0;
 channeling = 0;
 afterburn=0;
+mouse_over = false;
 
 scale = 0.5;
 image_xscale=scale;

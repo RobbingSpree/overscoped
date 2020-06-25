@@ -1,17 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description charcater setup
 
 mv_spd = 3; //player movement speed per frame
 dpad_dir=no_direction; //vert2 of player input
 facing = 0;
 player_state = state.idle;
-player_job = jobs.daydreamer;
+player_job = jobs.daydreamer; //player's current job
 door_jump=true; //flag for room start to move the player to the approprate 
-job = 0; //player's current job
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
 menu_memory = "job"; //the menu the game will open to 
 global.last_room = room0;
-global.current_job = jobs.daydreamer;
+global.current_job = player_job;
 setup_skill_unlocks();
 
 skill=[];

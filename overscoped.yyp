@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2c128660-08dc-48d8-aebd-0ba416b5e329",
+            "Value": {
+                "id": "07e36f93-c987-4748-9428-690e56a6cfcf",
+                "resourcePath": "sprites\\skill_highlight_spr\\skill_highlight_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30110f04-c45b-47c6-b61e-3be1cda4fe12",
             "Value": {
                 "id": "0595f80d-9e12-494b-9b6e-b4484e664ed2",

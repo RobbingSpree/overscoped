@@ -7,12 +7,12 @@ var up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 var down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 var debug = keyboard_check_released(vk_escape);
 var action = mouse_check_button_pressed(mb_right) || keyboard_check(ord("Q"));
-var jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("E"));
+//var jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("E"));
 var toggle_menu = keyboard_check_pressed(vk_tab);
 
+//trasform dpad input to analog stick input
 var input_h = right-left;
 var input_v = down-up;
-
 dpad_dir = point_distance(0,0,input_h,input_v) > 0 ? point_direction(0,0,input_h,input_v) : no_direction;
 
 //handle movement

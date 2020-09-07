@@ -8,6 +8,9 @@ player_job = jobs.daydreamer; //player's current job
 door_jump=true; //flag for room start to move the player to the approprate 
 mode = m.explore; //the game mode the player is in //will change some non-allowed skills
 menu_memory = "job"; //the menu the game will open to 
+next_skill = -1; //currently highlighted skill, assume it'll be the next skill 
+start_next_skill = false; //flag to activate skill currently listed in next_skill
+
 global.last_room = room0;
 global.current_job = player_job;
 setup_skill_unlocks();

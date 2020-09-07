@@ -1,5 +1,7 @@
 /// @description Step event
 
+//next_skill = -1;
+
 //gather input
 var left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 var right = keyboard_check(vk_right) || keyboard_check(ord("D"));

@@ -1,8 +1,12 @@
 {
-    "id": "f63485a2-2ade-4345-b162-2b541cc1c235",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dpad_angle",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dpad_angle",
+  "tags": [],
+  "resourceType": "GMScript",
 }

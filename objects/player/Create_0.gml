@@ -1,5 +1,7 @@
 /// @description charcater setup
-
+image_xscale = 2;
+image_yscale = 2;
+image_speed = 0;
 mv_spd = 3; //player movement speed per frame
 dpad_dir=no_direction; //vert2 of player input
 facing = 0;

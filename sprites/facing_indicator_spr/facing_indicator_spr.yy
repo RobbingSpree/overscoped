@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a80fef3b-5129-49e7-884b-f33f51dfbbda","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "characters",
+    "path": "folders/Sprites/characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "facing_indicator_spr",

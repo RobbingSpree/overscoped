@@ -1,7 +1,7 @@
-function dpad_angle(argument0, argument1, argument2) {
+function dpad_angle(argument0, argument1) {
 	var x_axis = argument0;
 	var y_axis = argument1;
-	var angle = argument2;
+	var angle = 0;
 
 	if x_axis !=0 || y_axis !=0
 	{

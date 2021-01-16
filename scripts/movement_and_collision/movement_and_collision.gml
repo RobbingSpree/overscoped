@@ -3,7 +3,7 @@
 ///@arg movespeed
 ///@arg wall object
 /// returns true if blocked by a wall.
-function movement_and_collision() {
+function movement_and_collision(_mv_dir, _mv_spd, _wall) {
 
 #macro no_direction -1  //Comment or Remove this line if you already have it defined elsewhere
 
@@ -16,9 +16,6 @@ function movement_and_collision() {
 	var _max_scan_angle = 75,
 	    _inc = 1,
    
-	    _mv_dir = argument[0],
-	    _mv_spd = argument[1],
-	    _wall   = argument[2],
 	    _count  = argument_count > 3 ? argument[3]+1 : 1,
 	    _limit  = 4;
 

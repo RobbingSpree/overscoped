@@ -24,7 +24,7 @@ if mode = m.explore || mode == m.combat
 	if player_state != state.menu //disable movement when in menu
 	{
 		movement_and_collision(dpad_dir,mv_spd,solid_);
-		facing = dpad_angle(input_h,input_v,facing);
+		facing = dpad_angle(input_h,input_v);
 	}
 }
 
@@ -57,6 +57,8 @@ if debug
 	room_restart();
 	
 //sprite update
-update_player_facing();
+//update_player_facing();
+if dpad_dir != no_direction
+	image_index = facing;
 
 depth = -y;

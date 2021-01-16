@@ -1,4 +1,4 @@
-function setup_skill_unlocks() {
+ function setup_skill_unlocks() {
 	global.unlocks = [];
 
 	var unknown = 0;

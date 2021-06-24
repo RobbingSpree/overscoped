@@ -67,6 +67,31 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1021a99b-0a71-4e0a-820b-6580284b8149","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": {
+    "left": 32,
+    "top": 32,
+    "right": 32,
+    "bottom": 32,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": true,
+    "tileMode": [
+      1,
+      1,
+      2,
+      1,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
     "name": "tile_atlas",
     "path": "folders/Sprites/tile_atlas.yy",

@@ -21,87 +21,87 @@ function get_job_name(index) {
 function job_board_initalize() {
 	var i =0;
 	var unit = 128;
-	//skill 0
-	jobname[i] = "Daydreamer"; //not used in demo
+	//job Daydreamer
+	jobname[i] = get_job_name(i); 
 	jobimage[i] = 0; //index of job_icon_spr
 	jobneeds[i,0] = -1; //the required nodes to make this selectable (-1 means always avaliable)
 	jobx[i] = 0; //x position of the node
 	joby[i] = 0; //y position of the node
 	i++;
-	//skill 1
-	jobname[i] = "Adventurer";
+	//job 1
+	jobname[i] = get_job_name(i); //"Adventurer";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 0; //requires skill 0 
+	jobneeds[i,0] = 0; //requires job 0 
 	jobx[i] = 0; 
 	joby[i] = -unit; 
 	i++;
-	//skill 2
-	jobname[i] = "Tele-violence";
+	//job 2
+	jobname[i] = get_job_name(i); //"Tele-violence";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 1; //requires skill 1
+	jobneeds[i,0] = 1; //requires job 1
 	jobx[i] = unit; 
 	joby[i] = -(2*unit); 
 	i++;
-	//skill 3
-	jobname[i] = "Wild Child";
+	//job 3
+	jobname[i] = get_job_name(i); // "Wild Child";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 1; //requires skill 1
+	jobneeds[i,0] = 1; //requires job 1
 	jobx[i] = 0; 
 	joby[i] = -(2*unit); 
 	i++;
-	//skill 4
-	jobname[i] = "Swordsperson";
+	//job 4
+	jobname[i] =get_job_name(i); // "Swordsperson";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 1; //requires skill 1
+	jobneeds[i,0] = 1; //requires job 1
 	jobx[i] = -unit; 
 	joby[i] = -(2*unit); 
 	i++;
-	//skill 5
-	jobname[i] = "Nightdreamer";
+	//job 5
+	jobname[i] = get_job_name(i); //"Nightdreamer";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 0; //requires skill 0
+	jobneeds[i,0] = 0; //requires job 0
 	jobx[i] = -unit; 
 	joby[i] = 0; 
 	i++;
-	//skill 6
-	jobname[i] = "Janksmith";
+	//job 6
+	jobname[i] = get_job_name(i); //"Janksmith";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 5; //requires skill 5
+	jobneeds[i,0] = 5; //requires job 5
 	jobx[i] = -(2*unit); 
 	joby[i] = 0; 
 	i++;
-	//skill 7
-	jobname[i] = "Thurmaturge";
+	//job 7
+	jobname[i] = get_job_name(i); //"Thurmaturge";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 6; //requires skill 6
+	jobneeds[i,0] = 6; //requires job 6
 	jobx[i] = -(2*unit); 
 	joby[i] = -unit; 
 	i++;
-	//skill 8
-	jobname[i] = "Danger Sprite";
+	//job 8
+	jobname[i] = get_job_name(i); //"Danger Sprite";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 7; //requires skill 7
+	jobneeds[i,0] = 7; //requires job 7
 	jobx[i] = -(3*unit); 
 	joby[i] = -unit; 
 	i++;
-	//skill 9
-	jobname[i] = "Failed Adventurer";
+	//job 9
+	jobname[i] = get_job_name(i); //"Failed Adventurer";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 1; //requires skill 1
+	jobneeds[i,0] = 1; //requires job 1
 	jobx[i] = (2*unit); 
 	joby[i] = -unit; 
 	i++;
-	//skill 10
-	jobname[i] = "Crittermonger";
+	//job 10
+	jobname[i] = get_job_name(i); //"Crittermonger";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 9; //requires skill 9
+	jobneeds[i,0] = 9; //requires job 9
 	jobx[i] = (2*unit); 
 	joby[i] = 0; 
 	i++;
-	//skill 11
-	jobname[i] = "Kittenmancer";
+	//job 11
+	jobname[i] = get_job_name(i); //"Kittenmancer";
 	jobimage[i] = 0; 
-	jobneeds[i,0] = 10; //requires skill 10
+	jobneeds[i,0] = 10; //requires job 10
 	jobx[i] = (2*unit); 
 	joby[i] = unit; 
 	i++;

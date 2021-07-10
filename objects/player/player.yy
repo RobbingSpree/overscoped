@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "RunSheet",
-    "path": "sprites/RunSheet/RunSheet.yy",
+    "name": "char_a_p1_0bas_humn_v05",
+    "path": "sprites/char_a_p1_0bas_humn_v05/char_a_p1_0bas_humn_v05.yy",
   },
   "solid": false,
   "visible": true,

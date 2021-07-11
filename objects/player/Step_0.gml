@@ -23,13 +23,15 @@ if state == global.states.idle || state == global.states.walk {
 
 ani_count ++
 if ani_count >= ani_speed {
+	ani_count  = ani_count mod ani_speed;
 	ani++
 	if ani >= state.length {
 		ani = 0;
 		if state.stateOnEnd != undefined
 			state_set(state.stateOnEnd);
+		else 
+			image_index = state.first_frame[facing];
 	} else {
 		image_index = state.frames[facing,ani];
 	}
-	ani_count = 0;
 }

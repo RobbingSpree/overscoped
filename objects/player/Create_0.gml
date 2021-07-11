@@ -13,6 +13,7 @@ ani_count = 0;
 image_speed = 0;
 image_xscale = 2;
 image_yscale = 2;
+under_layer = char_a_p1_1out_boxr_v01;
 
 //initalize state
 global.states = {

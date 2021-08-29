@@ -9,13 +9,17 @@ facing = 0;
 
 //animation variables
 ani = 0;
-ani_speed = 10;
-ani_count = 0;
+hold_count = 0; //count for charging or walking into a pushable object
+hold_max = 0;
 delta = 0;
 image_speed = 0;
-image_xscale = 2;
-image_yscale = 2;
+image_xscale = 1;
+image_yscale = 1;
 under_layer = char_a_p1_1out_boxr_v01;
+
+//camera variables
+camera_setup();
+//_camera = 
 
 //initalize state
 global.states = {

@@ -1,9 +1,5 @@
 {
-  "name": "overworld",
-  "spriteId": {
-    "name": "atlas_32x",
-    "path": "sprites/atlas_32x/atlas_32x.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,
@@ -3166,6 +3162,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "overworld",
   "tags": [],
   "resourceType": "GMTileSet",
 }

@@ -25,9 +25,31 @@ if state == global.states.idle || state == global.states.walk || state == global
 		state_set(global.states.idle);
 	}
 
-	//attack
+	//jump
 	if keyboard_check_pressed(vk_space) {
-		state_set(global.states.attack);
+		state_set(global.states.jump);
+	}
+}
+
+y_offset = 0;
+if state == global.states.jump {
+	if ani > 0 {
+		//slide in facing direction
+		var m_mod = 1 + running_mult * keyboard_check(vk_shift);
+		if facing < 2 { //0 and 1 are down and up
+			if facing == 0
+				y+= moveSpeed * m_mod;
+			else 
+				y-= moveSpeed * m_mod;
+		} else { //2 and 3 are right and left
+			if facing == 2
+				x+= moveSpeed * m_mod;
+			else 
+				x-= moveSpeed * m_mod;
+		}
+		//sinewave the y_offset variable
+		var ch = animcurve_get_channel(fake_jump_curve,0);
+		y_offset = animcurve_channel_evaluate(ch,ani/4)
 	}
 }
 
@@ -47,3 +69,4 @@ if delta > state.frame_rate[ani] {
 }
 
 depth = -y;
+
